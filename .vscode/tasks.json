@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "typescript",
+            "tsconfig": "day1/tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "$tsc-watch"
+            ],
+            "group": "build",
+            "label": "tsc: watch - day1/tsconfig.json"
+        },
+        {
+            "type": "typescript",
+            "tsconfig": "day2/tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "$tsc-watch"
+            ],
+            "group": "build",
+            "label": "tsc: watch - day2/tsconfig.json"
+        }
+
+    ]
+}

@@ -42,8 +42,19 @@
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Day4",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/day4",
+            "program": "${workspaceFolder}/day4/day4.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
         }
-
-
     ]
 }

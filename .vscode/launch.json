@@ -7,11 +7,12 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Day1",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/day1/test.ts",
+            "cwd": "${workspaceFolder}/day1",
+            "program": "${workspaceFolder}/day1/day1.ts",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]

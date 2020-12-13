@@ -39,6 +39,18 @@
             ],
             "group": "build",
             "label": "tsc: watch - day4/tsconfig.json"
+        },
+        {
+            "type": "cargo",
+            "subcommand": "run",
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "label": "Rust: cargo run - day5",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

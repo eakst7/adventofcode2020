@@ -1,0 +1,15 @@
+[package]
+name = "day6"
+version = "0.1.0"
+authors = ["Edward A King <eaking@us.ibm.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day6"
+path = "src/day6.rs"
+
+[dependencies]
+bitmaps = "2.1.0"
+typenum = "1.12.0"
